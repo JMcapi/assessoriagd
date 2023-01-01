@@ -15,7 +15,7 @@
 body {
     width: 100%;
     overflow-x: hidden;
-    background: linear-gradient(45deg, #1b2285 50%, #303BC9);
+    background: linear-gradient(90deg, #0a1063, #303BC9 80%);
 }
 
 
@@ -74,6 +74,8 @@ header.active a {
     cursor: pointer;
     display: none;
     z-index: 2;
+    background-color: #1b2285;
+    border-radius: 5px;
 }
 
 #section0 {
@@ -571,7 +573,7 @@ footer {
 
     }
 
-    header.active a {
+    header.active a{
         color: black;
     }
 
@@ -580,21 +582,23 @@ footer {
         right: 0;
         width: 100%;
         height: 10vh;
-        background: #ffffffbb;
+        background: white;
         transform: translate(0%, 55%);
         opacity: 0;
-        transition: .5s ease-in-out;
-        border-radius: 3px;
+        display: none;
+        transition: .3s ease-in-out;
+        border-radius: 10px;
+
 
     }
 
 
     .container_nav.active {
-
+display: flex;
         transform: translateY(55%);
         height: 60vh;
         opacity: 1;
-
+       
     }
 
 
@@ -607,16 +611,20 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
     }
 
     .navigation_options a {
-
+        width: 100%;
         color: black;
-        margin: auto;
-        padding: 4%;
+        margin: auto auto auto 0;
+padding: 4% 0 4% 10px;
         opacity: 0;
     }
+    .navigation_options a:hover{
+        color:#303BC9;
+    }
+
+
 
     .logo_container {
         display: flex;
