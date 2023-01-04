@@ -134,25 +134,22 @@ main {
 .botao_WhatsApp {
     margin-top: 90vh;
     position: fixed;
-    width: 150px;
-    height: 100px;
+    width: 100px;
     z-index: 2;
 }
 
 
-.botao_WhatsApp button{
-    border-radius: 20px;
+.botao_WhatsApp img{
+    
     position: fixed;
-    width: 150px;
-    background-color: #8B13DF;
+    width: 70px;
     border: none;
-    height: 60px;
     color: white;
     transition: .4s;
 }
 
 .botao_WhatsApp button:hover {
-    background-color: #7BE0AD ;
+    background-color: #7BE0AD;
     color: #000000;
     text-shadow: 1px 1px #ffffff;
 }
@@ -175,7 +172,6 @@ margin-bottom: 20px;
 }
 
 .main_content {
-margin-top: -100px;
     width: 60%;
     text-align: center;
     color: white;
@@ -486,7 +482,7 @@ h2 {
     margin: 30px 0 20px;
     overflow: hidden;
     position: relative;
-    transition: .6zs;
+    transition: .5s;
 }
 .button_prom:hover{
     background: #6406a7;
