@@ -15,7 +15,7 @@
 body {
     width: 100%;
     overflow-x: hidden;
-    background: linear-gradient(90deg, #0a1063, #303BC9 80%);
+    background: linear-gradient(60deg, #7137e4 50%, #c900f1) ;
 }
 
 
@@ -48,9 +48,10 @@ header.active a {
 
 
 .logo_container img {
-    width: 80px;
-    background-color: #ffffffa1;
+    width: 90px;
     border-radius: 50%;
+   
+  
 }
 
 .navigation_options {
@@ -152,8 +153,9 @@ main {
 }
 
 #titleGD {
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
-    text-shadow: 2px 2px black;
+margin-bottom: 20px;
 }
 
 #titleGD::after {
@@ -168,7 +170,7 @@ main {
 }
 
 .main_content {
-    margin-top: 100px;
+margin-top: -100px;
     width: 60%;
     text-align: center;
     color: white;
@@ -177,17 +179,16 @@ main {
 }
 
 .main_content img {
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    background-color: #ffffffa1;
+    margin-top: 100px;
+    width: 200px;
+    border-radius: 30%;
 
 }
 
 .main_content h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    margin-bottom: 40px;
+   
 }
 
 .main_content p {
@@ -198,7 +199,7 @@ main {
 
 .main_content h2 {
     padding: 10px;
-    background: linear-gradient(45deg, #0b113a1a, #120F47, #0b113a17);
+    background: linear-gradient(45deg, #0b113a1a, #660274, #0b113a17);
     font-size: 20px;
     text-shadow: 2px 2px black;
     margin: 5px 0 50px;

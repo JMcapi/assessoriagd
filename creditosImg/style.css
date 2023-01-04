@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(90deg,#7137e4 50%, #c900f1);
+}
+
+.container_image{
+width: 100%;
+height:80vh;
+background:linear-gradient(90deg,#4916af 50%, #8a0ba3);
+text-align: center;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+
+.container_image img{
+    width: 100px;
+}
+

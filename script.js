@@ -71,7 +71,7 @@ class MobileNavbar {
 //animation begin typing//
 
 const type = (element) => {
-  const text = "Grandini Gestão Digital"
+  const text = "ASSESSORIA"
   text.split("")
   .forEach((letter, index) => {
     setTimeout(() => element.innerHTML += letter, 100* index)
