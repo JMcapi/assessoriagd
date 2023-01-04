@@ -48,6 +48,7 @@ header.active a {
 
 
 .logo_container img {
+    display: none;
     width: 50px;
     border-radius: 50%;
    
@@ -273,7 +274,8 @@ margin-top: -100px;
 
 
 .infos_section {
-    border-top-right-radius: 200px 200px;
+    border-top-right-radius: 50px 50px;
+    border-top-left-radius: 50px 50px;
     overflow: hidden;
     width: 100%;
     height: 600px;
@@ -364,7 +366,8 @@ h2 {
 /*importancia do serviço*/
 .importancia {
     background-color: #6406a7;
-    border-bottom-right-radius: 200px 200px;
+    border-bottom-right-radius: 100px 100px;
+    border-top-left-radius: 100px 100px;
     width: 100%;
     height: 780px;
     text-align: center;
@@ -374,6 +377,7 @@ h2 {
 }
 
 .text_imp {
+    text-align: start;
     width: 40vw;
     color: white;
     margin-left: 15vw;
@@ -425,7 +429,8 @@ h2 {
 /*prom beginning*/
 .prom {
     background: #f7f7f7;
-    border-top-right-radius: 200px 200px;
+    border-top-right-radius: 50px 50px;
+    border-top-left-radius: 50px 50px;
     width: 100%;
     height: 110vh;
     display: flex;
@@ -436,7 +441,7 @@ h2 {
 
 .prom h1 {
     font-size: 2em;
-    color: #1b2285;
+    color: #7BE0AD ;
 }
 
 .prom h3 {
@@ -462,6 +467,7 @@ h2 {
     margin: 40px;
     border-radius:50px;
     background: #e7e7e7;
+    border: 2px solid #7137E4 ;
 }
 
 #prom1 img {
@@ -471,19 +477,21 @@ h2 {
 .button_prom {
     width: 50vw;
     height: 5em;
-    background-color: #303BC9;
+    background-color: #7137E4;
     color: white;
     padding: 14px 20px;
-    border: 1px solid #161d4d;
+    border: 1px solid #300e72;
     border-radius: 10px;
     cursor: pointer;
-    transition: 0.5s;
     margin: 30px 0 20px;
+    overflow: hidden;
+    position: relative;
+    transition: .6zs;
+}
+.button_prom:hover{
+    background: #6406a7;
 }
 
-.button_prom:hover {
-    background-color: #161d4d;
-}
 
 /*prom ending*/
 
@@ -716,10 +724,6 @@ footer {
         width: 90%;
     }
 
-    .infos_section {
-        flex-wrap: wrap;
-        padding-bottom: 200px;
-    }
 
     .importancia {
         height: 550px;
@@ -730,11 +734,11 @@ footer {
 
     
     .content h3 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .content h2 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .card {
@@ -743,6 +747,7 @@ footer {
 
     .container {
         margin-bottom: 10px;
+    
     }
 
 
@@ -797,7 +802,7 @@ footer {
 @media(max-width:1280px),
 (max-height: 800px) {
     .infos_section {
-        height: 700px;
+        height: 500px;
     }
 
     .importancia {
@@ -829,6 +834,7 @@ footer {
     .infos_section {
         height: 1300px;
         padding-bottom: 200px;
+        flex-wrap: wrap;
     }
 
     .form {
@@ -1126,7 +1132,11 @@ footer {
     }
 }
 
-
+@media (max-width:444px){
+    .prom h1{
+        font-size: 25px;
+    }
+}
 
 
 @media (max-width:272px),
