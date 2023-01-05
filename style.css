@@ -628,7 +628,6 @@ footer {
 
     header.active {
         height: 6vh;
-
     }
 
     header.active a {
@@ -675,7 +674,7 @@ footer {
         margin: 0;
         opacity: 0;
         color: black;
-        padding: 8% 35%;
+        padding: 5vh 35%;
     }
 
     .navigation_options a:hover {
