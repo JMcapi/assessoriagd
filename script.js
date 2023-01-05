@@ -132,3 +132,7 @@ addEventListener("load", type(document.querySelector("#titleGD")));
   });
   
   //SCROLL SUAVE -->
+
+
+
+ 
