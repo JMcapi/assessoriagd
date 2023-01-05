@@ -133,6 +133,9 @@ addEventListener("load", type(document.querySelector("#titleGD")));
   
   //SCROLL SUAVE -->
 
+
+
+   //number input -->
   function mascara(telefone){ 
     if(telefone.value.length == 0)
         telefone.value = '(' + telefone.value;
@@ -142,3 +145,4 @@ addEventListener("load", type(document.querySelector("#titleGD")));
 
     if(telefone.value.length == 10)
         telefone.value = telefone.value + '-';}
+ //number input -->
