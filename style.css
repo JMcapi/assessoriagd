@@ -742,7 +742,7 @@ main{
     .importancia {
         height: 550px;
         align-items: center;
-        border-bottom-right-radius: 20px 20px;
+      
 
     }
 
@@ -767,7 +767,7 @@ main{
 
     .prom {
         height: 840px;
-        border-top-right-radius: 20px 20px;
+       
     }
 
 
