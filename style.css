@@ -904,6 +904,9 @@ main{
         width: 93%;
         height: 99%;
     }
+    .botao_WhatsApp {
+        margin-top: 88vh;
+    }
 
 
     footer {
@@ -1152,7 +1155,7 @@ main{
     }
 
     .botao_WhatsApp {
-        margin-top: 89vh;
+        margin-top: 88vh;
     }
 
     .botao_WhatsApp img{
@@ -1161,9 +1164,7 @@ main{
 }
 
 @media(max-width:320px) {
-    footer {
-        height: 300px;
-    }
+  
 
     .text_imp p {
         font-size: 15px;
@@ -1206,9 +1207,6 @@ main{
         width: 50px;
     }
 }
-
-
-
 
 
 @media(max-width:260px) {
@@ -1257,6 +1255,7 @@ main{
 
 
 @media(max-width:245px) {
+        
     .prom {
         height: 2000px;
     }
@@ -1486,13 +1485,53 @@ font-size: 15px;
 
 }
 
+
 @media screen and (max-width: 239px){
     .importancia{
-        padding-bottom: 200px;
+       padding: 100px 0 100px 0 ;
+    }
+
+    .text_imp p{
+font-size: 12px;
+    }
+
+    .text_imp{
+        width: 90%;
+
+    }
+    .img_imp{
+        transform: translateY(0);
+        width: 70vw;
+        margin: 0 auto 30px auto;
+    
+    }
+
+    .infos_section{
+        padding-top: 100px;
+       height: 1200px;
+    }
+    form{
+      height: 700px;
+    }
+    .button_form_send{
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 220px){
+    .container_whatsApp {
+        width: 80%;
+        height: 99%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+    }
+    
+    .botao_WhatsApp {
+        position: fixed;
+        z-index: 2;
+    }
     #prom1 p{
 font-size: 9px;
     }
