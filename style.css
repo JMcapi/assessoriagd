@@ -36,13 +36,11 @@ header {
 
 
 header.active {
-  /* From https://css.glass */
-background: rgba(100, 6, 167, 0.17);
-border-radius: 16px;
+background: rgba(135, 80, 175, 0.54);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(8.2px);
--webkit-backdrop-filter: blur(8.2px);
-border: 1px solid rgba(100, 6, 167, 0.36);
+backdrop-filter: blur(5.6px);
+-webkit-backdrop-filter: blur(5.6px);
+border: 1px solid rgba(139, 19, 223, 0.38);
 height: 7vh;
     transition: .3s;
     border-bottom: 1px solid rgba(128, 128, 128, 0.616);
@@ -63,6 +61,7 @@ header.active a {
 
 .navigation_options {
     margin-right: 15px;
+    
 }
 
 .navigation_options a {
@@ -129,8 +128,8 @@ main {
 }
 
 .container_whatsApp {
-    width: 100%;
-    height: 100%;
+    width: 96%;
+    height: 99%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -138,17 +137,15 @@ main {
 }
 
 .botao_WhatsApp {
-    margin-top: 90vh;
+    margin-top: 93vh;
     position: fixed;
-    width: 100px;
     z-index: 2;
 }
 
 
 .botao_WhatsApp img{
-    
     position: fixed;
-    width: 70px;
+    width: 50px;
     border: none;
     color: white;
     transition: .4s;
@@ -330,7 +327,7 @@ form h3{
 }
 
 .front {
-    background:linear-gradient(180deg, #6406a7, #513c5f );
+    background:linear-gradient(180deg, #6406a7, #874aaf );
 }
 
 .front img {
@@ -402,9 +399,7 @@ h2 {
 }
 
 .img_imp {
-    width: 1000px;
-    height: 700px;
-   
+    width: 500px;
     margin-top: 40px;
 
 }
@@ -441,11 +436,23 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 }
-
-.prom h1 {
-    font-size: 2em;
-    color: #7BE0AD ;
+.prom_shape_container{
+    margin-top: 50px;
+}
+.prom_row{
+    margin-left: 100px;
+    display: flex;
+    flex-direction:row-reverse;
+}
+.img_prom{
+    align-self: center;
+    justify-self: flex-end;
+}
+.img_prom img{
+    
+    width: 35vw;
 }
 
 .prom h3 {
@@ -466,23 +473,28 @@ h2 {
 
 #prom1 {
     text-align: center;
-    width: 400px;
+    width: 350px;
+    height: 300px;
     padding: 3em;
     margin: 40px;
     border-radius:50px;
     background: #e7e7e7;
-    border: 2px solid #7137E4 ;
 }
 
 #prom1 img {
     width: 70px;
 }
-
+.button_prom_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .prom_button_top {
+    
     position: relative;
     display: inline-block;
-    margin: 15px;
     padding: 20px 200px;
     text-align: center;
     font-size: 18px;
@@ -506,10 +518,9 @@ h2 {
     transform: scale(0.9);
   }
    
-/*prom ending*/
-
-
+/*prom endin
 /*footer*/
+
 
 footer {
     width: 100%;
@@ -570,11 +581,17 @@ footer {
 
 
 
-/*media query*/
+
+
+
+
+
 
 
 @media(max-width: 1450px),
 (max-height: 900px) {
+    
+
     .content h2 {
         font-size: 10px;
     }
@@ -588,8 +605,6 @@ footer {
         font-size: 11px;
     }
 
-
-
     .importancia {
         height: 65vh;
     }
@@ -600,8 +615,8 @@ footer {
     }
 
     .img_imp {
-        width: 750px;
-        height: 530px;
+        width: 400px;
+      
     margin: 0;
     }
     .text_imp h1{
@@ -615,11 +630,15 @@ footer {
 
 
 
+
+
+
 @media(max-width:1280px),
 (max-height: 720px) {
 
     header {
         height: 7vh;
+        
     }
 
     .logo_container img {
@@ -628,57 +647,94 @@ footer {
 
     header.active {
         height: 6vh;
+        
     }
 
     header.active a {
-        color: black;
+        color: white;
     }
 
     .container_nav {
         position: absolute;
         right: 0;
         width: 0%;
+        color: white;
         height: 0vh;
-        background: white;
         transform: translate(0%, 55%);
         opacity: 0;
         transition: .3s ease-in-out;
         border-radius: 10px;
+    }
+
+    header.active .container_nav{
+
+background: rgba(139, 19, 223, 0.31);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.5px);
+-webkit-backdrop-filter: blur(9.5px);
+border: 1px solid rgba(139, 19, 223, 0.6);
 
     }
 
-
-    .container_nav.active {
+   .container_nav.active {
+   
+background: rgba(139, 19, 223, 0.31);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.5px);
+-webkit-backdrop-filter: blur(9.5px);
+border: 1px solid rgba(139, 19, 223, 0.6);
         display: flex;
         transform: translateY(55%);
         width: 100%;
-        height: 60vh;
+        height: 100vh;
         opacity: 1;
-
+ 
     }
 
+    .prom_shape_container{
+        width: 90%;
+        font-size: 13px;
+    }
+    
+    #prom1 p{
+font-size: 12px;
+    }
+    .prom_shape h3{
+    font-size: 15px;
+}
 
-
+.prom_button_top{
+    padding: 15px 150px;
+    font-size: 15px;
+}
+ 
     .navigation_options {
         width: 100%;
-        height: 100%;
+        height: 80%;
+        top: 0;
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
+        text-align: center;
     }
 
     .navigation_options a {
-        margin: 0;
+        
+        margin: auto;
         opacity: 0;
-        color: black;
-        padding: 5vh 35%;
+        color: white;
+        padding: 5vh;
+        width: 90%;
+       
     }
 
     .navigation_options a:hover {
         color: grey;
+        
     }
 
 
@@ -790,27 +846,43 @@ main{
     }
 
     .img_imp {
-        width: 2000px;
-        height: 550px;
+        width: 600px;
+       
     }
 
 }
 
 
 
+
+
+
+
+
+
+
+
+
 @media(max-width:1366px),
 (max-height: 768px) {
-
-
+    #prom1 {
+        border-radius: 12px;
+        font-size: 14px;
+        width: 280px;
+        height: 280px;
+       
+    }
     .prom {
-        height: 1000px;
+        height: 850px;
     }
-
-    
-
     .infos_section {
-        height: 500px;
+        height: 700px;
     }
+    .img_prom{
+        justify-self: flex-start;
+    }
+
+
 }
 
 @media(max-width:1280px),
@@ -824,6 +896,10 @@ main{
     }
 
    
+
+
+
+
 
 }
 @media screen and (max-height: 860px){
@@ -902,9 +978,8 @@ main{
     }
 
     .img_imp {
-        width: 800px;
-        height: 900px;
-       margin: 50px 0 0px 0;
+        width: 300px;
+       margin: 70px 0 0px 0;
       
     }
 
@@ -914,6 +989,15 @@ main{
        
     }
 
+    .prom_row{
+        display:flex;
+        margin: 0;
+       justify-content: center;
+       align-items: center;
+    }
+ .img_prom{
+    display: none;
+ }
     .prom {
         height: 1300px;
     }
@@ -921,6 +1005,12 @@ main{
     #prom1 {
         width: 90%;
         margin: 5px auto;
+    }
+#prom1 h3{
+    font-size: 18px;
+}
+    #prom1 p{
+        font-size: 15px;
     }
 
     .prom_shape {
@@ -933,14 +1023,13 @@ main{
 (max-height: 600px) {
 
     .img_imp {
-        display: none;
-        width: 0;
-        height: 0;
+   margin: 0;
+width: 220px;
+transform: translateY(-60px);
     }
 
     .text_imp {
         width: 80%;
-        margin-top: 40px;
     }
 
     .importancia {
@@ -974,7 +1063,7 @@ main{
 
     .text_imp h1 {
         font-size: 22px;
-        color: #a4ff00;
+        color: #7BE0AD;
 
     }
 
@@ -1028,7 +1117,7 @@ padding: 15px 15px;
 @media(max-width:400px),
 (max-height: 640px) {
     .prom {
-        height: 1500px;
+        height: 1300px;
     }
 
     footer {
@@ -1090,6 +1179,13 @@ main{
 
     .content img {
         width: 50px;
+    }
+}
+
+
+@media(max-width:525px){
+    .text_imp p {
+        font-size: 13px;
     }
 }
 
@@ -1240,6 +1336,7 @@ font-size: 15px;
 @media screen and (max-width: 387px){
     .prom{
         height: 1250px;
+        padding-bottom: 50px;
     }
 .prom h1{
     font-size: 18px;
@@ -1251,9 +1348,6 @@ font-size: 14px;
 #prom1 p{
     font-size: 12px;
     }
-   .text_imp{
-    margin-top: 20px;
-   }
 
    .button_form_send{
     padding: 10px 10px;
@@ -1262,16 +1356,10 @@ font-size: 14px;
 }
 
 
-@media screen and (max-width: 302px){
-.importancia p{
-    font-size: 14px;
-}
-
-}
 
 @media screen and (max-width: 264px){
     .prom{
-        height: 1400px;
+        height: 1200px;
     }
     .content p{
         font-size: 8px;
@@ -1283,7 +1371,9 @@ font-size: 14px;
     .prom h1{
         font-size: 14px;
     }
-
+.img_imp{
+    width: 180px;
+}
     .button_prom {
         font-size: 10px;
     }
@@ -1351,17 +1441,35 @@ font-size: 14px;
         padding-top: 100px;
     }
 }
-@media screen and (max-width: 314px){
+@media screen and (max-width: 315px){
     .prom {
         height: 1400px;
         padding-bottom:200px;
         padding-top: 100px;
     }
+.img_imp{
+    transform: translateY(-20px);
+}
+
+@keyframes anime {
+    100% {
+        transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
+        filter: drop-shadow(40px 12px 18px #000000c5);
+    }
+}
+    .importancia{
+        padding-bottom: 100px;
+    }
+
 }
 
 @media screen and (max-width: 290px){
 .prom{
-    height: 1500px;
+    height: 1400px;
 }
 }
 
@@ -1373,7 +1481,11 @@ font-size: 14px;
 
 @media screen and (max-width: 239px){
     .prom{
-        height: 1700px;
+        height: 1500px;
+       
+    }
+    .importancia{
+        padding-bottom: 200px;
     }
 }
 

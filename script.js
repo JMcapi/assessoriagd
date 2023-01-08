@@ -9,7 +9,7 @@ AOS.init();
 
 
 class MobileNavbar {
-    constructor(mobile_Menu, container_nav, navOptions) {
+    constructor(mobile_Menu, container_nav, nav_options) {
         this.mobileMenu = document.querySelector(mobile_Menu);
         this.navList = document.querySelector(container_nav);
         this.navLinks = document.querySelectorAll('.nav_options');
