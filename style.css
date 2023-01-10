@@ -34,7 +34,9 @@ header {
     transition: .3s;
 }
 header.active{
+    height: 9vh;
 background: rgba(139, 19, 223, 0.22);
+border: 1px solid #8B13DF;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5.4px);
 -webkit-backdrop-filter: blur(5.4px);
@@ -43,6 +45,7 @@ backdrop-filter: blur(5.4px);
 
 header.active a {
     color: rgba(255, 255, 255, 0.849);
+    text-shadow: 1px 1px black;
 }
 
 
@@ -450,7 +453,7 @@ h2 {
 
 .prom h3 {
     font-size: 1.3em;
-    color: green;
+    color: #37db89;
 }
 
 .prom p {
@@ -1154,9 +1157,6 @@ main{
         width: 87%;
     }
 
-    .botao_WhatsApp {
-        margin-top: 88vh;
-    }
 
     .botao_WhatsApp img{
         width: 40px;
@@ -1176,7 +1176,10 @@ main{
 @media(max-width:394px),
 (max-height: 496px) {
 
-
+ 
+    .botao_WhatsApp {
+        margin-top: 85vh;
+    }
     .prom h1 {
         margin-bottom: 20px;
     }
@@ -1203,9 +1206,15 @@ main{
 
 @media(max-width:480px),
 (max-height: 368px) {
+
+    .botao_WhatsApp {
+        margin-top: 85vh;
+    }
+    
     .content img {
         width: 50px;
     }
+
 }
 
 
