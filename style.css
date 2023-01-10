@@ -1147,7 +1147,7 @@ main{
 
 }
 
-@media(max-width:480px),
+@media(max-width:480px) and
 (max-height: 500px) {
     .prom {
         height: 1400px;
