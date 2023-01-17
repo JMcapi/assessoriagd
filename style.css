@@ -115,7 +115,7 @@ main {
 }
 
 .container_whatsApp {
-    position:relative;
+    position: relative;
     width: 95%;
     height: 95%;
     display: flex;
@@ -218,10 +218,10 @@ form h3 {
     margin: 30px 0 9vh 0;
     width: 85%;
     font-size: 30px;
-   
+
 }
 
-form h3 strong{
+form h3 strong {
     color: #7137e4;
 }
 
@@ -372,7 +372,7 @@ h2 {
     justify-content: center;
 }
 
-.form_imp{
+.form_imp {
     margin: 20px 200px 0 0;
 }
 
@@ -390,9 +390,9 @@ h2 {
 
 }
 
-.text_imp strong{
-  
-    background:#8B13DF;
+.text_imp strong {
+
+    background: #8B13DF;
 }
 
 .text_imp p {
@@ -425,13 +425,15 @@ h2 {
         filter: drop-shadow(40px 12px 18px #000000c5);
     }
 }
-.button_ebook_container{
+
+.button_ebook_container {
     margin-top: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .ebook_download {
 
     position: relative;
@@ -561,35 +563,37 @@ h2 {
 /*prom ending/
 
 /*about us*/
-.about_us{
+.about_us {
     width: 100%;
     height: 90vh;
-    background:linear-gradient(45deg, #7137e4 20%, #8B13DF);
-    display:flex;
+    background: linear-gradient(45deg, #7137e4 20%, #8B13DF);
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.text_about{
-width: 40%;
-display: flex;
-flex-direction: column;
-margin: 5vh 200px 0 0;
+.text_about {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 200px 0 0;
 }
-.text_about h3{
+
+.text_about h3 {
     margin: auto;
     font-size: 2em;
     margin-bottom: 20px;
     color: #37db89;
 }
-.text_about p{
-    font-size:1.5em;
+
+.text_about p {
+    font-size: 1.5em;
     color: #fff;
 }
 
-.img_about img{
-    width:35vw;
+.img_about img {
+    width: 35vw;
 }
 
 
@@ -661,17 +665,19 @@ footer {
 
 
 
-@media(max-width:1650px){
-    .text_about{
+@media(max-width:1650px) {
+    .text_about {
         width: 40vw;
-        }
-        .text_about h3{
-            font-size: 2em;
-        }
-        .text_about p{
-            font-size:1.3em;
-           
-        }
+    }
+
+    .text_about h3 {
+        font-size: 2em;
+    }
+
+    .text_about p {
+        font-size: 1.3em;
+
+    }
 }
 
 
@@ -689,7 +695,7 @@ footer {
 (max-height: 900px) {
 
     .front,
-    .back{
+    .back {
         border-radius: 20px;
     }
 
@@ -735,7 +741,7 @@ footer {
     }
 
 
-    
+
     footer {
         height: 50vh;
     }
@@ -821,7 +827,6 @@ footer {
     }
 
     .navigation_options a {
-
         margin: auto;
         opacity: 0;
         color: white;
@@ -829,13 +834,14 @@ footer {
         width: 90%;
 
     }
-    .text_about p{
-        font-size:1em;
+
+    .text_about p {
+        font-size: 1em;
         color: #fff;
     }
 
     .navigation_options a:hover {
-        color: grey;
+        color: rgb(204, 204, 204);
 
     }
 
@@ -957,38 +963,38 @@ footer {
     }
 
 
-    .text_about{
+    .text_about {
         width: 40%;
         display: flex;
         flex-direction: column;
         margin: 5vh 0 0 0;
-        }
-   
-        
-        
-        .img_about img{
-            width:500px;
-        }
-        
-        .container_whatsApp {
-            width: 90%;
-         
-        }
-        
-        .botao_WhatsApp {
-            margin-top: 93vh;
-            position: fixed;
-            z-index: 2;
-        }
-        
-        
-        .botao_WhatsApp img {
-            position: fixed;
-            width: 60px;
-            border: none;
-            color: white;
-            transition: .4s;
-        }
+    }
+
+
+
+    .img_about img {
+        width: 500px;
+    }
+
+    .container_whatsApp {
+        width: 90%;
+
+    }
+
+    .botao_WhatsApp {
+        margin-top: 93vh;
+        position: fixed;
+        z-index: 2;
+    }
+
+
+    .botao_WhatsApp img {
+        position: fixed;
+        width: 60px;
+        border: none;
+        color: white;
+        transition: .4s;
+    }
 
 }
 
@@ -1045,7 +1051,7 @@ footer {
 
 @media screen and (max-width: 991px) {
 
-  
+
     .container_whatsApp {
         width: 93%;
         height: 99%;
@@ -1084,31 +1090,33 @@ footer {
         flex-wrap: wrap;
     }
 
-    .about_us{
+    .about_us {
         height: 700px;
         flex-direction: column-reverse;
         justify-content: flex-end;
     }
 
-    .text_about{
+    .text_about {
         width: 80%;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        }
-        .text_about h3{
-            font-size: 1.5em;
-        }
-        .text_about p{
-            font-size:1em;
-            color: #fff;
-        }
-        
-        .img_about img{
-            width:40vw;
-        }
-        
-        
+    }
+
+    .text_about h3 {
+        font-size: 1.5em;
+    }
+
+    .text_about p {
+        font-size: 1em;
+        color: #fff;
+    }
+
+    .img_about img {
+        width: 40vw;
+    }
+
+
 
 
     .main_content {
@@ -1271,23 +1279,23 @@ footer {
         font-size: 10px;
     }
 
-    .about_us{
+    .about_us {
         height: 700px;
         flex-direction: column-reverse;
         justify-content: flex-end;
     }
 
-    .text_about{
+    .text_about {
         width: 80%;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        }
-        
-        .img_about img{
-            width:300px;
-        }
-        
+    }
+
+    .img_about img {
+        width: 300px;
+    }
+
 }
 
 @media(max-width:364px) and (max-height: 800px) {
@@ -1333,18 +1341,21 @@ footer {
         height: 1000px;
     }
 
-form h3{
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-form{
-    width: 95%;
-}
-.inputs_text{
-    width: 70vw;
-    height: 40px;
-}
-    .ebook_download{
+    form h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    form {
+        width: 95%;
+    }
+
+    .inputs_text {
+        width: 70vw;
+        height: 40px;
+    }
+
+    .ebook_download {
         padding: 15px 50px;
         font-size: 17px;
     }
@@ -1418,10 +1429,11 @@ form{
 
 @media(max-width:480px),
 (max-height: 368px) {
-    .text_about p{
-        font-size:0.8em;
+    .text_about p {
+        font-size: 0.8em;
         color: #fff;
     }
+
     .content img {
         width: 50px;
     }
@@ -1458,10 +1470,12 @@ form{
     main {
         height: 950px;
     }
-    .ebook_download{
+
+    .ebook_download {
         font-size: 14px;
         padding: 10px 20px;
     }
+
     form {
         width: 95%;
         height: 480px;
@@ -1496,10 +1510,10 @@ form{
 
 @media(max-width:320px),
 (max-height: 480px) {
-.img_about img{
-    width: 95%;
-    margin: auto;
-}
+    .img_about img {
+        width: 95%;
+        margin: auto;
+    }
 
     main {
         height: 1000px;
@@ -1531,8 +1545,8 @@ form{
         height: 1500px;
     }
 
-    .text_about p{
-        font-size:0.7em;
+    .text_about p {
+        font-size: 0.7em;
         color: #fff;
     }
 }
@@ -1602,7 +1616,7 @@ form{
     .button_form_send {
         padding: 10px 10px;
         font-size: 15px;
-    } 
+    }
 }
 
 
@@ -1684,7 +1698,8 @@ form{
     .main_content img {
         width: 100px;
     }
-    form{
+
+    form {
         justify-content: center;
     }
 }
@@ -1777,9 +1792,10 @@ form{
 }
 
 @media screen and (max-width: 220px) {
-    form h3{
+    form h3 {
         font-size: 13px;
     }
+
     .container_whatsApp {
         width: 80%;
         height: 99%;
@@ -1811,13 +1827,7 @@ form{
 }
 
 
-
-
-
 /*mobile responsivity*/
 
 
 
-
-
-/*mobile responsivity*/
