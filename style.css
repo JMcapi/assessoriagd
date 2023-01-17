@@ -1326,7 +1326,6 @@ footer {
     }
 
     .botao_WhatsApp {
-    
         margin: 88vh 10vw 0 0;
     }
 
@@ -1361,10 +1360,6 @@ form{
     .container_whatsApp {
         width: 90%;
     }
-
-
-
-
 
 }
 
@@ -1693,9 +1688,6 @@ form{
         justify-content: center;
     }
 }
-
-
-
 
 
 @media (max-width:960px) and (max-height: 544px) {
