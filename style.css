@@ -115,16 +115,17 @@ main {
 }
 
 .container_whatsApp {
-    width: 96%;
-    height: 99%;
+    position:relative;
+    width: 95%;
+    height: 95%;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: column-reverse;
+    align-items: flex-start;
+    flex-direction: row;
 }
 
 .botao_WhatsApp {
-    margin-top: 93vh;
+    margin-top: 91vh;
     position: fixed;
     z-index: 2;
 }
@@ -136,17 +137,6 @@ main {
     border: none;
     color: white;
     transition: .4s;
-    animation: anime2 2s infinite ease-in-out alternate;
-}
-
-@keyframes anime2 {
-    100% {
-        transform: translateX(20px);
-        -webkit-transform: translateX(20px);
-        -moz-transform: translateX(20px);
-        -ms-transform: translateX(20px);
-        -o-transform: translateX(20px);
-    }
 }
 
 .botao_WhatsApp img:hover {
@@ -980,7 +970,25 @@ footer {
             width:500px;
         }
         
+        .container_whatsApp {
+            width: 90%;
+         
+        }
         
+        .botao_WhatsApp {
+            margin-top: 93vh;
+            position: fixed;
+            z-index: 2;
+        }
+        
+        
+        .botao_WhatsApp img {
+            position: fixed;
+            width: 60px;
+            border: none;
+            color: white;
+            transition: .4s;
+        }
 
 }
 
@@ -1311,6 +1319,17 @@ footer {
 }
 
 @media(max-width:581px) {
+
+    .container_whatsApp {
+        width: 93%;
+        height: 99%;
+    }
+
+    .botao_WhatsApp {
+    
+        margin: 88vh 10vw 0 0;
+    }
+
     main {
         height: 1000px;
     }
