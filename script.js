@@ -131,12 +131,10 @@ addEventListener("load", type(document.querySelector("#titleGD")));
     });
   });
   
-  //SCROLL SUAVE -->
-
-
-
+  //SCROLL SUAVE --
    //number input -->
   function mascara(telefone){ 
+
     if(telefone.value.length == 0)
         telefone.value = '(' + telefone.value;
 
@@ -144,5 +142,20 @@ addEventListener("load", type(document.querySelector("#titleGD")));
         telefone.value = telefone.value + ') '; 
 
     if(telefone.value.length == 10)
-        telefone.value = telefone.value + '-';}
+       { telefone.value = telefone.value + '-';}
+    
+      };
+
+
  //number input -->
+
+
+
+
+ VanillaTilt.init(document.querySelectorAll(".designAbout"), {
+  max: 25,
+  speed: 400,
+  glare: true,
+});
+
+//end hover art//
