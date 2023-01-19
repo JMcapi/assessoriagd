@@ -117,24 +117,24 @@ main {
 }
 
 .container_whatsApp {
-    position: fixed;
+    position: absolute;
     width: 100vw;
     height: 100vh;
     display:flex;
     top: 0;
-    z-index: 2;
 }
 
 
 
 .container_whatsApp img {
-    position: fixed;
+    position:fixed;
     width: 60px;
     right: 50px;
     bottom: 50px;
     border: none;
     color: white;
     transition: .4s;
+    z-index: 3;
 }
 
 .container_whatsApp img:hover {
@@ -209,6 +209,7 @@ form {
     -webkit-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.56);
     -moz-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.56);
     box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.56);
+    z-index: 2;
 }
 
 
@@ -230,6 +231,7 @@ form h3 strong {
     border-radius: 5px;
     border: 1px solid #8B13DF;
     margin-bottom: 25px;
+    
 }
 
 .button_form_send {
