@@ -128,7 +128,7 @@ main {
     z-index: 3;
 }
 
-.container_wpp_button img:hover {
+.link_fixed_button img:hover {
     transform: scale(1.3);
 }
 
@@ -1013,7 +1013,7 @@ footer {
 
 @media screen and (max-width: 991px) {
 
-    .container_wpp_button img {
+    .link_fixed_button img {
         right: 20px;
         bottom: 20px;
     }
@@ -1284,7 +1284,7 @@ footer {
 
 @media(max-width:581px) {
 
-    .container_wpp_button img{
+    .link_fixed_button img{
         width: 40px;
     }
 
