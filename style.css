@@ -117,7 +117,7 @@ main {
 }
 
 
-.container_wpp_button #wpp_button {
+.link_fixed_button img {
     position:fixed;
     width: 60px;
     right: 50px;
@@ -128,7 +128,7 @@ main {
     z-index: 3;
 }
 
-.container_wpp_button #wpp_button:hover {
+.container_wpp_button img:hover {
     transform: scale(1.3);
 }
 
@@ -1013,7 +1013,7 @@ footer {
 
 @media screen and (max-width: 991px) {
 
-    .container_wpp_button #wpp_button {
+    .container_wpp_button img {
         right: 20px;
         bottom: 20px;
     }
@@ -1284,7 +1284,7 @@ footer {
 
 @media(max-width:581px) {
 
-    .container_wpp_button #wpp_button{
+    .container_wpp_button img{
         width: 40px;
     }
 
