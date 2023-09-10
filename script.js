@@ -152,7 +152,7 @@ addEventListener("load", type(document.querySelector("#titleGD")));
 
 
 
- VanillaTilt.init(document.querySelectorAll(".designAbout"), {
+ VanillaTilt.init(document.querySelectorAll("."), {
   max: 25,
   speed: 400,
   glare: true,

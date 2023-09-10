@@ -17,7 +17,7 @@ html{
 body {
     width: 100%;
     overflow-x: hidden;
-    background: linear-gradient(60deg, #7137e4 50%, #8B13DF);
+    background: linear-gradient(180deg, #6406a7, #513c5f);;
 }
 
 
@@ -38,11 +38,8 @@ header {
 
 header.active {
     height: 9vh;
-    background: rgba(139, 19, 223, 0.22);
-    border: 1px solid #8B13DF;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.4px);
-    -webkit-backdrop-filter: blur(5.4px);
+    background: #4d0381;
+    border-bottom: 1px solid #8B13DF;
 }
 
 
@@ -557,7 +554,7 @@ h2 {
 .about_us {
     width: 100%;
     height: 90vh;
-    background: linear-gradient(45deg, #7137e4 20%, #8B13DF);
+    background: linear-gradient(180deg, #6406a7, #513c5f);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -622,7 +619,7 @@ h2 {
 footer {
     width: 100%;
     height: 30vh;
-    background-color: #000000;
+    background-color: #191b1b;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -642,7 +639,7 @@ footer {
 }
 
 .social_media i:hover {
-    color: #cc2366
+    color: #7137e4
 }
 
 .footer_text a {
@@ -734,7 +731,6 @@ footer {
 
     header {
         height: 7vh;
-
     }
 
     .logo_container img {
@@ -743,7 +739,6 @@ footer {
 
     header.active {
         height: 6vh;
-
     }
 
     header.active a {
@@ -756,25 +751,21 @@ footer {
         width: 0%;
         color: white;
         height: 0vh;
-        transform: translate(0%, 55%);
+        transform: translate(0%, 53%);
         opacity: 0;
         transition: .3s ease-in-out;
         border-radius: 5px;
     }
 
     .container_nav.active {
-        background: rgba(139, 19, 223, 0.69);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        background:#6406a7de;
         backdrop-filter: blur(9.5px);
         -webkit-backdrop-filter: blur(9.5px);
         border: 1px solid rgba(139, 19, 223, 0.06);
         display: flex;
-        transform: translateY(55%);
         width: 100%;
         height: 100vh;
         opacity: 1;
-
     }
 
     .prom_shape_container {
@@ -1174,7 +1165,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(180deg, #6406a7, #513c5f)
+        background: linear-gradient(180deg, #6406a7, #513c5f);
     }
 
     .main_content h1 {
